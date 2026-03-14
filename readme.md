@@ -1,7 +1,7 @@
-# SciBERT Text Classification Pipeline
+# ML Article Classification Pipeline
 
 A complete pipeline for **training, evaluating, and deploying SciBERT-based model** for ml article tagging.  
-The project includes data preparation, experiment management, model selection, inference, and online serving.
+The project includes data preparation, experiment management, model selection, batch inference, and online serving.
 
 ---
 
