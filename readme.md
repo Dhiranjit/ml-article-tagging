@@ -1,4 +1,4 @@
-# ML Article Classification Pipeline
+# ML Article Tagging
 
 A complete pipeline for **training, evaluating, and deploying SciBERT-based model** for ml article tagging.  
 The project includes data preparation, experiment management, model selection, batch inference, and online serving.
