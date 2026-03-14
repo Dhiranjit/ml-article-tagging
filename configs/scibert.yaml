@@ -1,0 +1,24 @@
+experiment:
+  name: scibert
+  seed: 42
+
+model:
+  dropout_p: 0.3
+  pretrained_name: allenai/scibert_scivocab_uncased
+
+optimizer:
+  lr: 2.0e-05
+  name: AdamW
+  weight_decay: 0.01
+
+scheduler:
+  name: linear
+  warmup_ratio: 0.1
+
+training:
+  accumulation_steps: 1
+  batch_size: 32
+  epochs: 8
+  primary_metric: f1
+  metric_mode: max  # Added to explicitly tell the pipeline that higher F1 is better
+  use_amp: true
