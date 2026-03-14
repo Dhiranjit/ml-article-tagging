@@ -1,8 +1,22 @@
 [project]
-name = "ml-article-taggging"
+name = "ml-article-tagging"
 version = "0.1.0"
 description = "End to end ML application"
 requires-python = ">=3.10"
+
+dependencies = [
+    "torch>=2.5",
+    "transformers",
+    "ray[serve]",
+    "fastapi",
+    "uvicorn",
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "mlflow",
+    "pyyaml",
+    "tqdm"
+]
 
 [tool.setuptools.packages.find]
 where = ["src"]
