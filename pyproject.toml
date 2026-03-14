@@ -1,0 +1,8 @@
+[project]
+name = "ml-article-taggging"
+version = "0.1.0"
+description = "End to end ML application"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["src"]
