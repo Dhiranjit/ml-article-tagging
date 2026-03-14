@@ -1,0 +1,394 @@
+{"id": 1, "title": "Introduction to Machine Learning", "description": "Overview of supervised and unsupervised learning fundamentals.", "category": "other"}
+{"id": 2, "title": "Linear Regression Explained", "description": "Understanding linear regression models and assumptions.", "category": "other"}
+{"id": 3, "title": "Logistic Regression for Classification", "description": "Binary classification using logistic regression.", "category": "other"}
+{"id": 4, "title": "Decision Trees Basics", "description": "Introduction to decision tree models and splitting criteria.", "category": "other"}
+{"id": 5, "title": "K-Nearest Neighbors Algorithm", "description": "Lazy learning classification using distance metrics.", "category": "other"}
+{"id": 6, "title": "Naive Bayes Classifiers", "description": "Probabilistic classification based on Bayes theorem.", "category": "other"}
+{"id": 7, "title": "Feature Engineering Techniques", "description": "Methods for transforming raw data into useful features.", "category": "other"}
+{"id": 8, "title": "Model Evaluation Metrics", "description": "Accuracy, precision, recall, and F1 score explained.", "category": "other"}
+{"id": 9, "title": "Handling Missing Data", "description": "Strategies for imputing or removing missing values.", "category": "other"}
+{"id": 10, "title": "Introduction to Natural Language Processing", "description": "Basic NLP pipeline including tokenization and preprocessing.", "category": "nlp"}
+{"id": 11, "title": "Tokenization Techniques", "description": "Word, subword, and sentence tokenization methods.", "category": "nlp"}
+{"id": 12, "title": "Bag of Words Model", "description": "Representing text using word frequency vectors.", "category": "nlp"}
+{"id": 13, "title": "TF-IDF Representation", "description": "Weighting terms based on frequency and rarity.", "category": "nlp"}
+{"id": 14, "title": "Word Embeddings Overview", "description": "Dense vector representations of words.", "category": "nlp"}
+{"id": 15, "title": "Word2Vec Skip-Gram Model", "description": "Learning distributed word representations.", "category": "nlp"}
+{"id": 16, "title": "GloVe Embeddings", "description": "Global vectors for word representation.", "category": "nlp"}
+{"id": 17, "title": "Recurrent Neural Networks for Text", "description": "Modeling sequential data using RNNs.", "category": "nlp"}
+{"id": 18, "title": "LSTM Networks", "description": "Handling long-term dependencies in sequences.", "category": "nlp"}
+{"id": 19, "title": "GRU Networks", "description": "Simplified gated recurrent units for sequence modeling.", "category": "nlp"}
+{"id": 20, "title": "Sequence-to-Sequence Models", "description": "Encoder-decoder architecture for translation.", "category": "nlp"}
+
+{"id": 21, "title": "Introduction to Computer Vision", "description": "Fundamentals of image processing and vision tasks.", "category": "computer vision"}
+{"id": 22, "title": "Image Classification Basics", "description": "Classifying images using machine learning models.", "category": "computer vision"}
+{"id": 23, "title": "Convolutional Neural Networks", "description": "Core architecture used for image tasks.", "category": "computer vision"}
+{"id": 24, "title": "LeNet Architecture", "description": "Early CNN architecture for digit recognition.", "category": "computer vision"}
+{"id": 25, "title": "AlexNet Breakthrough", "description": "Deep CNN architecture that transformed image classification.", "category": "computer vision"}
+{"id": 26, "title": "VGG Networks", "description": "Deep CNNs with small convolution filters.", "category": "computer vision"}
+{"id": 27, "title": "ResNet for Image Classification", "description": "Residual connections enabling very deep networks.", "category": "computer vision"}
+{"id": 28, "title": "Image Data Augmentation", "description": "Techniques to improve dataset diversity.", "category": "computer vision"}
+{"id": 29, "title": "Transfer Learning for Vision", "description": "Using pretrained CNN models for new tasks.", "category": "computer vision"}
+{"id": 30, "title": "Object Detection Overview", "description": "Detecting multiple objects within images.", "category": "computer vision"}
+
+{"id": 31, "title": "YOLO Object Detection", "description": "Real-time object detection using single-stage detectors.", "category": "computer vision"}
+{"id": 32, "title": "Faster R-CNN Architecture", "description": "Region proposal networks for object detection.", "category": "computer vision"}
+{"id": 33, "title": "Semantic Segmentation Basics", "description": "Pixel-wise classification for images.", "category": "computer vision"}
+{"id": 34, "title": "U-Net for Medical Imaging", "description": "Segmentation architecture widely used in healthcare.", "category": "computer vision"}
+{"id": 35, "title": "Vision Transformers", "description": "Applying transformer models to images.", "category": "computer vision"}
+
+{"id": 36, "title": "Introduction to MLOps", "description": "Bringing DevOps principles to machine learning.", "category": "mlops"}
+{"id": 37, "title": "ML Pipeline Fundamentals", "description": "Designing pipelines for training and inference.", "category": "mlops"}
+{"id": 38, "title": "Data Versioning in ML", "description": "Tracking dataset changes during model development.", "category": "mlops"}
+{"id": 39, "title": "Experiment Tracking", "description": "Recording parameters, metrics, and artifacts.", "category": "mlops"}
+{"id": 40, "title": "Model Versioning", "description": "Managing multiple model versions.", "category": "mlops"}
+{"id": 41, "title": "MLflow for Experiment Tracking", "description": "Managing machine learning lifecycle with MLflow.", "category": "mlops"}
+{"id": 42, "title": "Kubeflow Pipelines", "description": "Building reproducible ML workflows on Kubernetes.", "category": "mlops"}
+{"id": 43, "title": "Continuous Training Pipelines", "description": "Automating model retraining pipelines.", "category": "mlops"}
+{"id": 44, "title": "Model Monitoring in Production", "description": "Tracking model performance and drift.", "category": "mlops"}
+{"id": 45, "title": "Feature Stores", "description": "Centralized feature management systems.", "category": "mlops"}
+
+{"id": 46, "title": "Data Drift Detection", "description": "Detecting distribution shifts in production data.", "category": "mlops"}
+{"id": 47, "title": "Concept Drift Handling", "description": "Adapting models to changing environments.", "category": "mlops"}
+{"id": 48, "title": "Model Serving Architectures", "description": "Designing scalable inference systems.", "category": "mlops"}
+{"id": 49, "title": "Batch vs Online Inference", "description": "Comparing batch predictions with real-time inference.", "category": "mlops"}
+{"id": 50, "title": "Ray Serve for Model Deployment", "description": "Scalable distributed model serving.", "category": "mlops"}
+
+{"id": 51, "title": "Attention is All You Need", "description": "Transformer architecture based entirely on attention.", "category": "nlp"}
+{"id": 52, "title": "BERT Pretraining Methods", "description": "Bidirectional encoder representations for language understanding.", "category": "nlp"}
+{"id": 53, "title": "GPT Language Models", "description": "Autoregressive transformer language models.", "category": "nlp"}
+{"id": 54, "title": "T5 Text-to-Text Transformer", "description": "Unified text-to-text framework for NLP tasks.", "category": "nlp"}
+{"id": 55, "title": "Large Language Models", "description": "Scaling transformer models to billions of parameters.", "category": "nlp"}
+
+{"id": 56, "title": "Graph Neural Networks", "description": "Learning representations for graph structured data.", "category": "other"}
+{"id": 57, "title": "AutoML for Neural Architecture Search", "description": "Automating architecture design using reinforcement learning.", "category": "other"}
+{"id": 58, "title": "Generative Adversarial Networks", "description": "Training generative models using adversarial learning.", "category": "other"}
+{"id": 59, "title": "Variational Autoencoders", "description": "Probabilistic generative models for latent representation learning.", "category": "other"}
+{"id": 60, "title": "Diffusion Models", "description": "Generative models based on iterative noise removal.", "category": "other"}
+
+{"id": 61, "title": "Scaling Laws for Neural Networks", "description": "Empirical laws describing model scaling behavior.", "category": "other"}
+{"id": 62, "title": "Mixture of Experts Transformers", "description": "Sparse routing architectures for scaling models.", "category": "nlp"}
+{"id": 63, "title": "Retrieval-Augmented Generation", "description": "Combining retrieval systems with language models.", "category": "nlp"}
+{"id": 64, "title": "Vision-Language Models", "description": "Multimodal models connecting images and text.", "category": "computer vision"}
+{"id": 65, "title": "CLIP Zero-Shot Learning", "description": "Contrastive language-image pretraining for multimodal tasks.", "category": "computer vision"}
+
+{"id": 66, "title": "Foundation Models", "description": "Large pretrained models adaptable to many tasks.", "category": "other"}
+{"id": 67, "title": "Self-Supervised Learning", "description": "Learning representations without labeled data.", "category": "other"}
+{"id": 68, "title": "Contrastive Learning Methods", "description": "Representation learning via similarity objectives.", "category": "other"}
+{"id": 69, "title": "Reinforcement Learning from Human Feedback", "description": "Aligning models using human preference signals.", "category": "other"}
+{"id": 70, "title": "Agentic AI Systems", "description": "Autonomous systems coordinating multiple models.", "category": "other"}
+
+{"id": 1, "title": "Introduction to Machine Learning", "description": "Overview of supervised and unsupervised learning fundamentals.", "category": "other"}
+{"id": 2, "title": "Linear Regression Explained", "description": "Understanding linear regression models and assumptions.", "category": "other"}
+{"id": 3, "title": "Logistic Regression for Classification", "description": "Binary classification using logistic regression.", "category": "other"}
+{"id": 4, "title": "Decision Trees Basics", "description": "Introduction to decision tree models and splitting criteria.", "category": "other"}
+{"id": 5, "title": "K-Nearest Neighbors Algorithm", "description": "Lazy learning classification using distance metrics.", "category": "other"}
+{"id": 6, "title": "Naive Bayes Classifiers", "description": "Probabilistic classification based on Bayes theorem.", "category": "other"}
+{"id": 7, "title": "Feature Engineering Techniques", "description": "Methods for transforming raw data into useful features.", "category": "other"}
+{"id": 8, "title": "Model Evaluation Metrics", "description": "Accuracy, precision, recall, and F1 score explained.", "category": "other"}
+{"id": 9, "title": "Handling Missing Data", "description": "Strategies for imputing or removing missing values.", "category": "other"}
+{"id": 10, "title": "Introduction to Natural Language Processing", "description": "Basic NLP pipeline including tokenization and preprocessing.", "category": "nlp"}
+{"id": 11, "title": "Tokenization Techniques", "description": "Word, subword, and sentence tokenization methods.", "category": "nlp"}
+{"id": 12, "title": "Bag of Words Model", "description": "Representing text using word frequency vectors.", "category": "nlp"}
+{"id": 13, "title": "TF-IDF Representation", "description": "Weighting terms based on frequency and rarity.", "category": "nlp"}
+{"id": 14, "title": "Word Embeddings Overview", "description": "Dense vector representations of words.", "category": "nlp"}
+{"id": 15, "title": "Word2Vec Skip-Gram Model", "description": "Learning distributed word representations.", "category": "nlp"}
+{"id": 16, "title": "GloVe Embeddings", "description": "Global vectors for word representation.", "category": "nlp"}
+{"id": 17, "title": "Recurrent Neural Networks for Text", "description": "Modeling sequential data using RNNs.", "category": "nlp"}
+{"id": 18, "title": "LSTM Networks", "description": "Handling long-term dependencies in sequences.", "category": "nlp"}
+{"id": 19, "title": "GRU Networks", "description": "Simplified gated recurrent units for sequence modeling.", "category": "nlp"}
+{"id": 20, "title": "Sequence-to-Sequence Models", "description": "Encoder-decoder architecture for translation.", "category": "nlp"}
+
+{"id": 21, "title": "Introduction to Computer Vision", "description": "Fundamentals of image processing and vision tasks.", "category": "computer vision"}
+{"id": 22, "title": "Image Classification Basics", "description": "Classifying images using machine learning models.", "category": "computer vision"}
+{"id": 23, "title": "Convolutional Neural Networks", "description": "Core architecture used for image tasks.", "category": "computer vision"}
+{"id": 24, "title": "LeNet Architecture", "description": "Early CNN architecture for digit recognition.", "category": "computer vision"}
+{"id": 25, "title": "AlexNet Breakthrough", "description": "Deep CNN architecture that transformed image classification.", "category": "computer vision"}
+{"id": 26, "title": "VGG Networks", "description": "Deep CNNs with small convolution filters.", "category": "computer vision"}
+{"id": 27, "title": "ResNet for Image Classification", "description": "Residual connections enabling very deep networks.", "category": "computer vision"}
+{"id": 28, "title": "Image Data Augmentation", "description": "Techniques to improve dataset diversity.", "category": "computer vision"}
+{"id": 29, "title": "Transfer Learning for Vision", "description": "Using pretrained CNN models for new tasks.", "category": "computer vision"}
+{"id": 30, "title": "Object Detection Overview", "description": "Detecting multiple objects within images.", "category": "computer vision"}
+
+{"id": 31, "title": "YOLO Object Detection", "description": "Real-time object detection using single-stage detectors.", "category": "computer vision"}
+{"id": 32, "title": "Faster R-CNN Architecture", "description": "Region proposal networks for object detection.", "category": "computer vision"}
+{"id": 33, "title": "Semantic Segmentation Basics", "description": "Pixel-wise classification for images.", "category": "computer vision"}
+{"id": 34, "title": "U-Net for Medical Imaging", "description": "Segmentation architecture widely used in healthcare.", "category": "computer vision"}
+{"id": 35, "title": "Vision Transformers", "description": "Applying transformer models to images.", "category": "computer vision"}
+
+{"id": 36, "title": "Introduction to MLOps", "description": "Bringing DevOps principles to machine learning.", "category": "mlops"}
+{"id": 37, "title": "ML Pipeline Fundamentals", "description": "Designing pipelines for training and inference.", "category": "mlops"}
+{"id": 38, "title": "Data Versioning in ML", "description": "Tracking dataset changes during model development.", "category": "mlops"}
+{"id": 39, "title": "Experiment Tracking", "description": "Recording parameters, metrics, and artifacts.", "category": "mlops"}
+{"id": 40, "title": "Model Versioning", "description": "Managing multiple model versions.", "category": "mlops"}
+{"id": 41, "title": "MLflow for Experiment Tracking", "description": "Managing machine learning lifecycle with MLflow.", "category": "mlops"}
+{"id": 42, "title": "Kubeflow Pipelines", "description": "Building reproducible ML workflows on Kubernetes.", "category": "mlops"}
+{"id": 43, "title": "Continuous Training Pipelines", "description": "Automating model retraining pipelines.", "category": "mlops"}
+{"id": 44, "title": "Model Monitoring in Production", "description": "Tracking model performance and drift.", "category": "mlops"}
+{"id": 45, "title": "Feature Stores", "description": "Centralized feature management systems.", "category": "mlops"}
+
+{"id": 46, "title": "Data Drift Detection", "description": "Detecting distribution shifts in production data.", "category": "mlops"}
+{"id": 47, "title": "Concept Drift Handling", "description": "Adapting models to changing environments.", "category": "mlops"}
+{"id": 48, "title": "Model Serving Architectures", "description": "Designing scalable inference systems.", "category": "mlops"}
+{"id": 49, "title": "Batch vs Online Inference", "description": "Comparing batch predictions with real-time inference.", "category": "mlops"}
+{"id": 50, "title": "Ray Serve for Model Deployment", "description": "Scalable distributed model serving.", "category": "mlops"}
+
+{"id": 51, "title": "Attention is All You Need", "description": "Transformer architecture based entirely on attention.", "category": "nlp"}
+{"id": 52, "title": "BERT Pretraining Methods", "description": "Bidirectional encoder representations for language understanding.", "category": "nlp"}
+{"id": 53, "title": "GPT Language Models", "description": "Autoregressive transformer language models.", "category": "nlp"}
+{"id": 54, "title": "T5 Text-to-Text Transformer", "description": "Unified text-to-text framework for NLP tasks.", "category": "nlp"}
+{"id": 55, "title": "Large Language Models", "description": "Scaling transformer models to billions of parameters.", "category": "nlp"}
+
+{"id": 56, "title": "Graph Neural Networks", "description": "Learning representations for graph structured data.", "category": "other"}
+{"id": 57, "title": "AutoML for Neural Architecture Search", "description": "Automating architecture design using reinforcement learning.", "category": "other"}
+{"id": 58, "title": "Generative Adversarial Networks", "description": "Training generative models using adversarial learning.", "category": "other"}
+{"id": 59, "title": "Variational Autoencoders", "description": "Probabilistic generative models for latent representation learning.", "category": "other"}
+{"id": 60, "title": "Diffusion Models", "description": "Generative models based on iterative noise removal.", "category": "other"}
+
+{"id": 61, "title": "Scaling Laws for Neural Networks", "description": "Empirical laws describing model scaling behavior.", "category": "other"}
+{"id": 62, "title": "Mixture of Experts Transformers", "description": "Sparse routing architectures for scaling models.", "category": "nlp"}
+{"id": 63, "title": "Retrieval-Augmented Generation", "description": "Combining retrieval systems with language models.", "category": "nlp"}
+{"id": 64, "title": "Vision-Language Models", "description": "Multimodal models connecting images and text.", "category": "computer vision"}
+{"id": 65, "title": "CLIP Zero-Shot Learning", "description": "Contrastive language-image pretraining for multimodal tasks.", "category": "computer vision"}
+
+{"id": 66, "title": "Foundation Models", "description": "Large pretrained models adaptable to many tasks.", "category": "other"}
+{"id": 67, "title": "Self-Supervised Learning", "description": "Learning representations without labeled data.", "category": "other"}
+{"id": 68, "title": "Contrastive Learning Methods", "description": "Representation learning via similarity objectives.", "category": "other"}
+{"id": 69, "title": "Reinforcement Learning from Human Feedback", "description": "Aligning models using human preference signals.", "category": "other"}
+{"id": 70, "title": "Agentic AI Systems", "description": "Autonomous systems coordinating multiple models.", "category": "other"}
+
+{"id": 1, "title": "Introduction to Machine Learning", "description": "Overview of supervised and unsupervised learning fundamentals.", "category": "other"}
+{"id": 2, "title": "Linear Regression Explained", "description": "Understanding linear regression models and assumptions.", "category": "other"}
+{"id": 3, "title": "Logistic Regression for Classification", "description": "Binary classification using logistic regression.", "category": "other"}
+{"id": 4, "title": "Decision Trees Basics", "description": "Introduction to decision tree models and splitting criteria.", "category": "other"}
+{"id": 5, "title": "K-Nearest Neighbors Algorithm", "description": "Lazy learning classification using distance metrics.", "category": "other"}
+{"id": 6, "title": "Naive Bayes Classifiers", "description": "Probabilistic classification based on Bayes theorem.", "category": "other"}
+{"id": 7, "title": "Feature Engineering Techniques", "description": "Methods for transforming raw data into useful features.", "category": "other"}
+{"id": 8, "title": "Model Evaluation Metrics", "description": "Accuracy, precision, recall, and F1 score explained.", "category": "other"}
+{"id": 9, "title": "Handling Missing Data", "description": "Strategies for imputing or removing missing values.", "category": "other"}
+{"id": 10, "title": "Introduction to Natural Language Processing", "description": "Basic NLP pipeline including tokenization and preprocessing.", "category": "nlp"}
+{"id": 11, "title": "Tokenization Techniques", "description": "Word, subword, and sentence tokenization methods.", "category": "nlp"}
+{"id": 12, "title": "Bag of Words Model", "description": "Representing text using word frequency vectors.", "category": "nlp"}
+{"id": 13, "title": "TF-IDF Representation", "description": "Weighting terms based on frequency and rarity.", "category": "nlp"}
+{"id": 14, "title": "Word Embeddings Overview", "description": "Dense vector representations of words.", "category": "nlp"}
+{"id": 15, "title": "Word2Vec Skip-Gram Model", "description": "Learning distributed word representations.", "category": "nlp"}
+{"id": 16, "title": "GloVe Embeddings", "description": "Global vectors for word representation.", "category": "nlp"}
+{"id": 17, "title": "Recurrent Neural Networks for Text", "description": "Modeling sequential data using RNNs.", "category": "nlp"}
+{"id": 18, "title": "LSTM Networks", "description": "Handling long-term dependencies in sequences.", "category": "nlp"}
+{"id": 19, "title": "GRU Networks", "description": "Simplified gated recurrent units for sequence modeling.", "category": "nlp"}
+{"id": 20, "title": "Sequence-to-Sequence Models", "description": "Encoder-decoder architecture for translation.", "category": "nlp"}
+
+{"id": 21, "title": "Introduction to Computer Vision", "description": "Fundamentals of image processing and vision tasks.", "category": "computer vision"}
+{"id": 22, "title": "Image Classification Basics", "description": "Classifying images using machine learning models.", "category": "computer vision"}
+{"id": 23, "title": "Convolutional Neural Networks", "description": "Core architecture used for image tasks.", "category": "computer vision"}
+{"id": 24, "title": "LeNet Architecture", "description": "Early CNN architecture for digit recognition.", "category": "computer vision"}
+{"id": 25, "title": "AlexNet Breakthrough", "description": "Deep CNN architecture that transformed image classification.", "category": "computer vision"}
+{"id": 26, "title": "VGG Networks", "description": "Deep CNNs with small convolution filters.", "category": "computer vision"}
+{"id": 27, "title": "ResNet for Image Classification", "description": "Residual connections enabling very deep networks.", "category": "computer vision"}
+{"id": 28, "title": "Image Data Augmentation", "description": "Techniques to improve dataset diversity.", "category": "computer vision"}
+{"id": 29, "title": "Transfer Learning for Vision", "description": "Using pretrained CNN models for new tasks.", "category": "computer vision"}
+{"id": 30, "title": "Object Detection Overview", "description": "Detecting multiple objects within images.", "category": "computer vision"}
+
+{"id": 31, "title": "YOLO Object Detection", "description": "Real-time object detection using single-stage detectors.", "category": "computer vision"}
+{"id": 32, "title": "Faster R-CNN Architecture", "description": "Region proposal networks for object detection.", "category": "computer vision"}
+{"id": 33, "title": "Semantic Segmentation Basics", "description": "Pixel-wise classification for images.", "category": "computer vision"}
+{"id": 34, "title": "U-Net for Medical Imaging", "description": "Segmentation architecture widely used in healthcare.", "category": "computer vision"}
+{"id": 35, "title": "Vision Transformers", "description": "Applying transformer models to images.", "category": "computer vision"}
+
+{"id": 36, "title": "Introduction to MLOps", "description": "Bringing DevOps principles to machine learning.", "category": "mlops"}
+{"id": 37, "title": "ML Pipeline Fundamentals", "description": "Designing pipelines for training and inference.", "category": "mlops"}
+{"id": 38, "title": "Data Versioning in ML", "description": "Tracking dataset changes during model development.", "category": "mlops"}
+{"id": 39, "title": "Experiment Tracking", "description": "Recording parameters, metrics, and artifacts.", "category": "mlops"}
+{"id": 40, "title": "Model Versioning", "description": "Managing multiple model versions.", "category": "mlops"}
+{"id": 41, "title": "MLflow for Experiment Tracking", "description": "Managing machine learning lifecycle with MLflow.", "category": "mlops"}
+{"id": 42, "title": "Kubeflow Pipelines", "description": "Building reproducible ML workflows on Kubernetes.", "category": "mlops"}
+{"id": 43, "title": "Continuous Training Pipelines", "description": "Automating model retraining pipelines.", "category": "mlops"}
+{"id": 44, "title": "Model Monitoring in Production", "description": "Tracking model performance and drift.", "category": "mlops"}
+{"id": 45, "title": "Feature Stores", "description": "Centralized feature management systems.", "category": "mlops"}
+
+{"id": 46, "title": "Data Drift Detection", "description": "Detecting distribution shifts in production data.", "category": "mlops"}
+{"id": 47, "title": "Concept Drift Handling", "description": "Adapting models to changing environments.", "category": "mlops"}
+{"id": 48, "title": "Model Serving Architectures", "description": "Designing scalable inference systems.", "category": "mlops"}
+{"id": 49, "title": "Batch vs Online Inference", "description": "Comparing batch predictions with real-time inference.", "category": "mlops"}
+{"id": 50, "title": "Ray Serve for Model Deployment", "description": "Scalable distributed model serving.", "category": "mlops"}
+
+{"id": 51, "title": "Attention is All You Need", "description": "Transformer architecture based entirely on attention.", "category": "nlp"}
+{"id": 52, "title": "BERT Pretraining Methods", "description": "Bidirectional encoder representations for language understanding.", "category": "nlp"}
+{"id": 53, "title": "GPT Language Models", "description": "Autoregressive transformer language models.", "category": "nlp"}
+{"id": 54, "title": "T5 Text-to-Text Transformer", "description": "Unified text-to-text framework for NLP tasks.", "category": "nlp"}
+{"id": 55, "title": "Large Language Models", "description": "Scaling transformer models to billions of parameters.", "category": "nlp"}
+
+{"id": 56, "title": "Graph Neural Networks", "description": "Learning representations for graph structured data.", "category": "other"}
+{"id": 57, "title": "AutoML for Neural Architecture Search", "description": "Automating architecture design using reinforcement learning.", "category": "other"}
+{"id": 58, "title": "Generative Adversarial Networks", "description": "Training generative models using adversarial learning.", "category": "other"}
+{"id": 59, "title": "Variational Autoencoders", "description": "Probabilistic generative models for latent representation learning.", "category": "other"}
+{"id": 60, "title": "Diffusion Models", "description": "Generative models based on iterative noise removal.", "category": "other"}
+
+{"id": 61, "title": "Scaling Laws for Neural Networks", "description": "Empirical laws describing model scaling behavior.", "category": "other"}
+{"id": 62, "title": "Mixture of Experts Transformers", "description": "Sparse routing architectures for scaling models.", "category": "nlp"}
+{"id": 63, "title": "Retrieval-Augmented Generation", "description": "Combining retrieval systems with language models.", "category": "nlp"}
+{"id": 64, "title": "Vision-Language Models", "description": "Multimodal models connecting images and text.", "category": "computer vision"}
+{"id": 65, "title": "CLIP Zero-Shot Learning", "description": "Contrastive language-image pretraining for multimodal tasks.", "category": "computer vision"}
+
+{"id": 66, "title": "Foundation Models", "description": "Large pretrained models adaptable to many tasks.", "category": "other"}
+{"id": 67, "title": "Self-Supervised Learning", "description": "Learning representations without labeled data.", "category": "other"}
+{"id": 68, "title": "Contrastive Learning Methods", "description": "Representation learning via similarity objectives.", "category": "other"}
+{"id": 69, "title": "Reinforcement Learning from Human Feedback", "description": "Aligning models using human preference signals.", "category": "other"}
+{"id": 70, "title": "Agentic AI Systems", "description": "Autonomous systems coordinating multiple models.", "category": "other"}
+
+{"id": 1, "title": "Introduction to Machine Learning", "description": "Overview of supervised and unsupervised learning fundamentals.", "category": "other"}
+{"id": 2, "title": "Linear Regression Explained", "description": "Understanding linear regression models and assumptions.", "category": "other"}
+{"id": 3, "title": "Logistic Regression for Classification", "description": "Binary classification using logistic regression.", "category": "other"}
+{"id": 4, "title": "Decision Trees Basics", "description": "Introduction to decision tree models and splitting criteria.", "category": "other"}
+{"id": 5, "title": "K-Nearest Neighbors Algorithm", "description": "Lazy learning classification using distance metrics.", "category": "other"}
+{"id": 6, "title": "Naive Bayes Classifiers", "description": "Probabilistic classification based on Bayes theorem.", "category": "other"}
+{"id": 7, "title": "Feature Engineering Techniques", "description": "Methods for transforming raw data into useful features.", "category": "other"}
+{"id": 8, "title": "Model Evaluation Metrics", "description": "Accuracy, precision, recall, and F1 score explained.", "category": "other"}
+{"id": 9, "title": "Handling Missing Data", "description": "Strategies for imputing or removing missing values.", "category": "other"}
+{"id": 10, "title": "Introduction to Natural Language Processing", "description": "Basic NLP pipeline including tokenization and preprocessing.", "category": "nlp"}
+{"id": 11, "title": "Tokenization Techniques", "description": "Word, subword, and sentence tokenization methods.", "category": "nlp"}
+{"id": 12, "title": "Bag of Words Model", "description": "Representing text using word frequency vectors.", "category": "nlp"}
+{"id": 13, "title": "TF-IDF Representation", "description": "Weighting terms based on frequency and rarity.", "category": "nlp"}
+{"id": 14, "title": "Word Embeddings Overview", "description": "Dense vector representations of words.", "category": "nlp"}
+{"id": 15, "title": "Word2Vec Skip-Gram Model", "description": "Learning distributed word representations.", "category": "nlp"}
+{"id": 16, "title": "GloVe Embeddings", "description": "Global vectors for word representation.", "category": "nlp"}
+{"id": 17, "title": "Recurrent Neural Networks for Text", "description": "Modeling sequential data using RNNs.", "category": "nlp"}
+{"id": 18, "title": "LSTM Networks", "description": "Handling long-term dependencies in sequences.", "category": "nlp"}
+{"id": 19, "title": "GRU Networks", "description": "Simplified gated recurrent units for sequence modeling.", "category": "nlp"}
+{"id": 20, "title": "Sequence-to-Sequence Models", "description": "Encoder-decoder architecture for translation.", "category": "nlp"}
+
+{"id": 21, "title": "Introduction to Computer Vision", "description": "Fundamentals of image processing and vision tasks.", "category": "computer vision"}
+{"id": 22, "title": "Image Classification Basics", "description": "Classifying images using machine learning models.", "category": "computer vision"}
+{"id": 23, "title": "Convolutional Neural Networks", "description": "Core architecture used for image tasks.", "category": "computer vision"}
+{"id": 24, "title": "LeNet Architecture", "description": "Early CNN architecture for digit recognition.", "category": "computer vision"}
+{"id": 25, "title": "AlexNet Breakthrough", "description": "Deep CNN architecture that transformed image classification.", "category": "computer vision"}
+{"id": 26, "title": "VGG Networks", "description": "Deep CNNs with small convolution filters.", "category": "computer vision"}
+{"id": 27, "title": "ResNet for Image Classification", "description": "Residual connections enabling very deep networks.", "category": "computer vision"}
+{"id": 28, "title": "Image Data Augmentation", "description": "Techniques to improve dataset diversity.", "category": "computer vision"}
+{"id": 29, "title": "Transfer Learning for Vision", "description": "Using pretrained CNN models for new tasks.", "category": "computer vision"}
+{"id": 30, "title": "Object Detection Overview", "description": "Detecting multiple objects within images.", "category": "computer vision"}
+
+{"id": 31, "title": "YOLO Object Detection", "description": "Real-time object detection using single-stage detectors.", "category": "computer vision"}
+{"id": 32, "title": "Faster R-CNN Architecture", "description": "Region proposal networks for object detection.", "category": "computer vision"}
+{"id": 33, "title": "Semantic Segmentation Basics", "description": "Pixel-wise classification for images.", "category": "computer vision"}
+{"id": 34, "title": "U-Net for Medical Imaging", "description": "Segmentation architecture widely used in healthcare.", "category": "computer vision"}
+{"id": 35, "title": "Vision Transformers", "description": "Applying transformer models to images.", "category": "computer vision"}
+
+{"id": 36, "title": "Introduction to MLOps", "description": "Bringing DevOps principles to machine learning.", "category": "mlops"}
+{"id": 37, "title": "ML Pipeline Fundamentals", "description": "Designing pipelines for training and inference.", "category": "mlops"}
+{"id": 38, "title": "Data Versioning in ML", "description": "Tracking dataset changes during model development.", "category": "mlops"}
+{"id": 39, "title": "Experiment Tracking", "description": "Recording parameters, metrics, and artifacts.", "category": "mlops"}
+{"id": 40, "title": "Model Versioning", "description": "Managing multiple model versions.", "category": "mlops"}
+{"id": 41, "title": "MLflow for Experiment Tracking", "description": "Managing machine learning lifecycle with MLflow.", "category": "mlops"}
+{"id": 42, "title": "Kubeflow Pipelines", "description": "Building reproducible ML workflows on Kubernetes.", "category": "mlops"}
+{"id": 43, "title": "Continuous Training Pipelines", "description": "Automating model retraining pipelines.", "category": "mlops"}
+{"id": 44, "title": "Model Monitoring in Production", "description": "Tracking model performance and drift.", "category": "mlops"}
+{"id": 45, "title": "Feature Stores", "description": "Centralized feature management systems.", "category": "mlops"}
+
+{"id": 46, "title": "Data Drift Detection", "description": "Detecting distribution shifts in production data.", "category": "mlops"}
+{"id": 47, "title": "Concept Drift Handling", "description": "Adapting models to changing environments.", "category": "mlops"}
+{"id": 48, "title": "Model Serving Architectures", "description": "Designing scalable inference systems.", "category": "mlops"}
+{"id": 49, "title": "Batch vs Online Inference", "description": "Comparing batch predictions with real-time inference.", "category": "mlops"}
+{"id": 50, "title": "Ray Serve for Model Deployment", "description": "Scalable distributed model serving.", "category": "mlops"}
+
+{"id": 51, "title": "Attention is All You Need", "description": "Transformer architecture based entirely on attention.", "category": "nlp"}
+{"id": 52, "title": "BERT Pretraining Methods", "description": "Bidirectional encoder representations for language understanding.", "category": "nlp"}
+{"id": 53, "title": "GPT Language Models", "description": "Autoregressive transformer language models.", "category": "nlp"}
+{"id": 54, "title": "T5 Text-to-Text Transformer", "description": "Unified text-to-text framework for NLP tasks.", "category": "nlp"}
+{"id": 55, "title": "Large Language Models", "description": "Scaling transformer models to billions of parameters.", "category": "nlp"}
+
+{"id": 56, "title": "Graph Neural Networks", "description": "Learning representations for graph structured data.", "category": "other"}
+{"id": 57, "title": "AutoML for Neural Architecture Search", "description": "Automating architecture design using reinforcement learning.", "category": "other"}
+{"id": 58, "title": "Generative Adversarial Networks", "description": "Training generative models using adversarial learning.", "category": "other"}
+{"id": 59, "title": "Variational Autoencoders", "description": "Probabilistic generative models for latent representation learning.", "category": "other"}
+{"id": 60, "title": "Diffusion Models", "description": "Generative models based on iterative noise removal.", "category": "other"}
+
+{"id": 61, "title": "Scaling Laws for Neural Networks", "description": "Empirical laws describing model scaling behavior.", "category": "other"}
+{"id": 62, "title": "Mixture of Experts Transformers", "description": "Sparse routing architectures for scaling models.", "category": "nlp"}
+{"id": 63, "title": "Retrieval-Augmented Generation", "description": "Combining retrieval systems with language models.", "category": "nlp"}
+{"id": 64, "title": "Vision-Language Models", "description": "Multimodal models connecting images and text.", "category": "computer vision"}
+{"id": 65, "title": "CLIP Zero-Shot Learning", "description": "Contrastive language-image pretraining for multimodal tasks.", "category": "computer vision"}
+
+{"id": 66, "title": "Foundation Models", "description": "Large pretrained models adaptable to many tasks.", "category": "other"}
+{"id": 67, "title": "Self-Supervised Learning", "description": "Learning representations without labeled data.", "category": "other"}
+{"id": 68, "title": "Contrastive Learning Methods", "description": "Representation learning via similarity objectives.", "category": "other"}
+{"id": 69, "title": "Reinforcement Learning from Human Feedback", "description": "Aligning models using human preference signals.", "category": "other"}
+{"id": 70, "title": "Agentic AI Systems", "description": "Autonomous systems coordinating multiple models.", "category": "other"}
+
+{"id": 1, "title": "Introduction to Machine Learning", "description": "Overview of supervised and unsupervised learning fundamentals.", "category": "other"}
+{"id": 2, "title": "Linear Regression Explained", "description": "Understanding linear regression models and assumptions.", "category": "other"}
+{"id": 3, "title": "Logistic Regression for Classification", "description": "Binary classification using logistic regression.", "category": "other"}
+{"id": 4, "title": "Decision Trees Basics", "description": "Introduction to decision tree models and splitting criteria.", "category": "other"}
+{"id": 5, "title": "K-Nearest Neighbors Algorithm", "description": "Lazy learning classification using distance metrics.", "category": "other"}
+{"id": 6, "title": "Naive Bayes Classifiers", "description": "Probabilistic classification based on Bayes theorem.", "category": "other"}
+{"id": 7, "title": "Feature Engineering Techniques", "description": "Methods for transforming raw data into useful features.", "category": "other"}
+{"id": 8, "title": "Model Evaluation Metrics", "description": "Accuracy, precision, recall, and F1 score explained.", "category": "other"}
+{"id": 9, "title": "Handling Missing Data", "description": "Strategies for imputing or removing missing values.", "category": "other"}
+{"id": 10, "title": "Introduction to Natural Language Processing", "description": "Basic NLP pipeline including tokenization and preprocessing.", "category": "nlp"}
+{"id": 11, "title": "Tokenization Techniques", "description": "Word, subword, and sentence tokenization methods.", "category": "nlp"}
+{"id": 12, "title": "Bag of Words Model", "description": "Representing text using word frequency vectors.", "category": "nlp"}
+{"id": 13, "title": "TF-IDF Representation", "description": "Weighting terms based on frequency and rarity.", "category": "nlp"}
+{"id": 14, "title": "Word Embeddings Overview", "description": "Dense vector representations of words.", "category": "nlp"}
+{"id": 15, "title": "Word2Vec Skip-Gram Model", "description": "Learning distributed word representations.", "category": "nlp"}
+{"id": 16, "title": "GloVe Embeddings", "description": "Global vectors for word representation.", "category": "nlp"}
+{"id": 17, "title": "Recurrent Neural Networks for Text", "description": "Modeling sequential data using RNNs.", "category": "nlp"}
+{"id": 18, "title": "LSTM Networks", "description": "Handling long-term dependencies in sequences.", "category": "nlp"}
+{"id": 19, "title": "GRU Networks", "description": "Simplified gated recurrent units for sequence modeling.", "category": "nlp"}
+{"id": 20, "title": "Sequence-to-Sequence Models", "description": "Encoder-decoder architecture for translation.", "category": "nlp"}
+
+{"id": 21, "title": "Introduction to Computer Vision", "description": "Fundamentals of image processing and vision tasks.", "category": "computer vision"}
+{"id": 22, "title": "Image Classification Basics", "description": "Classifying images using machine learning models.", "category": "computer vision"}
+{"id": 23, "title": "Convolutional Neural Networks", "description": "Core architecture used for image tasks.", "category": "computer vision"}
+{"id": 24, "title": "LeNet Architecture", "description": "Early CNN architecture for digit recognition.", "category": "computer vision"}
+{"id": 25, "title": "AlexNet Breakthrough", "description": "Deep CNN architecture that transformed image classification.", "category": "computer vision"}
+{"id": 26, "title": "VGG Networks", "description": "Deep CNNs with small convolution filters.", "category": "computer vision"}
+{"id": 27, "title": "ResNet for Image Classification", "description": "Residual connections enabling very deep networks.", "category": "computer vision"}
+{"id": 28, "title": "Image Data Augmentation", "description": "Techniques to improve dataset diversity.", "category": "computer vision"}
+{"id": 29, "title": "Transfer Learning for Vision", "description": "Using pretrained CNN models for new tasks.", "category": "computer vision"}
+{"id": 30, "title": "Object Detection Overview", "description": "Detecting multiple objects within images.", "category": "computer vision"}
+
+{"id": 31, "title": "YOLO Object Detection", "description": "Real-time object detection using single-stage detectors.", "category": "computer vision"}
+{"id": 32, "title": "Faster R-CNN Architecture", "description": "Region proposal networks for object detection.", "category": "computer vision"}
+{"id": 33, "title": "Semantic Segmentation Basics", "description": "Pixel-wise classification for images.", "category": "computer vision"}
+{"id": 34, "title": "U-Net for Medical Imaging", "description": "Segmentation architecture widely used in healthcare.", "category": "computer vision"}
+{"id": 35, "title": "Vision Transformers", "description": "Applying transformer models to images.", "category": "computer vision"}
+
+{"id": 36, "title": "Introduction to MLOps", "description": "Bringing DevOps principles to machine learning.", "category": "mlops"}
+{"id": 37, "title": "ML Pipeline Fundamentals", "description": "Designing pipelines for training and inference.", "category": "mlops"}
+{"id": 38, "title": "Data Versioning in ML", "description": "Tracking dataset changes during model development.", "category": "mlops"}
+{"id": 39, "title": "Experiment Tracking", "description": "Recording parameters, metrics, and artifacts.", "category": "mlops"}
+{"id": 40, "title": "Model Versioning", "description": "Managing multiple model versions.", "category": "mlops"}
+{"id": 41, "title": "MLflow for Experiment Tracking", "description": "Managing machine learning lifecycle with MLflow.", "category": "mlops"}
+{"id": 42, "title": "Kubeflow Pipelines", "description": "Building reproducible ML workflows on Kubernetes.", "category": "mlops"}
+{"id": 43, "title": "Continuous Training Pipelines", "description": "Automating model retraining pipelines.", "category": "mlops"}
+{"id": 44, "title": "Model Monitoring in Production", "description": "Tracking model performance and drift.", "category": "mlops"}
+{"id": 45, "title": "Feature Stores", "description": "Centralized feature management systems.", "category": "mlops"}
+
+{"id": 46, "title": "Data Drift Detection", "description": "Detecting distribution shifts in production data.", "category": "mlops"}
+{"id": 47, "title": "Concept Drift Handling", "description": "Adapting models to changing environments.", "category": "mlops"}
+{"id": 48, "title": "Model Serving Architectures", "description": "Designing scalable inference systems.", "category": "mlops"}
+{"id": 49, "title": "Batch vs Online Inference", "description": "Comparing batch predictions with real-time inference.", "category": "mlops"}
+{"id": 50, "title": "Ray Serve for Model Deployment", "description": "Scalable distributed model serving.", "category": "mlops"}
+
+{"id": 51, "title": "Attention is All You Need", "description": "Transformer architecture based entirely on attention.", "category": "nlp"}
+{"id": 52, "title": "BERT Pretraining Methods", "description": "Bidirectional encoder representations for language understanding.", "category": "nlp"}
+{"id": 53, "title": "GPT Language Models", "description": "Autoregressive transformer language models.", "category": "nlp"}
+{"id": 54, "title": "T5 Text-to-Text Transformer", "description": "Unified text-to-text framework for NLP tasks.", "category": "nlp"}
+{"id": 55, "title": "Large Language Models", "description": "Scaling transformer models to billions of parameters.", "category": "nlp"}
+
+{"id": 56, "title": "Graph Neural Networks", "description": "Learning representations for graph structured data.", "category": "other"}
+{"id": 57, "title": "AutoML for Neural Architecture Search", "description": "Automating architecture design using reinforcement learning.", "category": "other"}
+{"id": 58, "title": "Generative Adversarial Networks", "description": "Training generative models using adversarial learning.", "category": "other"}
+{"id": 59, "title": "Variational Autoencoders", "description": "Probabilistic generative models for latent representation learning.", "category": "other"}
+{"id": 60, "title": "Diffusion Models", "description": "Generative models based on iterative noise removal.", "category": "other"}
+
+{"id": 61, "title": "Scaling Laws for Neural Networks", "description": "Empirical laws describing model scaling behavior.", "category": "other"}
+{"id": 62, "title": "Mixture of Experts Transformers", "description": "Sparse routing architectures for scaling models.", "category": "nlp"}
+{"id": 63, "title": "Retrieval-Augmented Generation", "description": "Combining retrieval systems with language models.", "category": "nlp"}
+{"id": 64, "title": "Vision-Language Models", "description": "Multimodal models connecting images and text.", "category": "computer vision"}
+{"id": 65, "title": "CLIP Zero-Shot Learning", "description": "Contrastive language-image pretraining for multimodal tasks.", "category": "computer vision"}
+
+{"id": 66, "title": "Foundation Models", "description": "Large pretrained models adaptable to many tasks.", "category": "other"}
+{"id": 67, "title": "Self-Supervised Learning", "description": "Learning representations without labeled data.", "category": "other"}
+{"id": 68, "title": "Contrastive Learning Methods", "description": "Representation learning via similarity objectives.", "category": "other"}
+{"id": 69, "title": "Reinforcement Learning from Human Feedback", "description": "Aligning models using human preference signals.", "category": "other"}
+{"id": 70, "title": "Agentic AI Systems", "description": "Autonomous systems coordinating multiple models.", "category": "other"}
